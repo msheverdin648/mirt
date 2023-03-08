@@ -1,0 +1,28 @@
+.btn {
+    margin: 0 10px;
+}
+
+.btnRow {
+    display: flex;
+    margin: 0 -10px;
+    justify-content: flex-end;
+}
+
+.block {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.addBtn {
+    padding: 0 10px;
+}
+
+.addBtnBlock {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 60px;
+}
