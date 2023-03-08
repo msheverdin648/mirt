@@ -7,7 +7,6 @@ public_html
 vendor
 **/vendor
 php.ini
-front
 *.json
 *.lock
 deploy.txt
@@ -17,3 +16,6 @@ __pycache__
 
 static
 media
+
+.env.*
+settings_local.py
