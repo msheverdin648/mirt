@@ -22,8 +22,6 @@ services:
     build:
       context: ../front
       dockerfile: ./Dockerfile.prod
-    env_file:
-      - ../front/.env-prod
     volumes:
       - react_build:/app/build
     depends_on:
