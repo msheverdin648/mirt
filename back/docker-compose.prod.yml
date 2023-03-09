@@ -59,3 +59,9 @@ volumes:
   static_volume:
   media_volume:
   react_build:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ../front/build
+  
