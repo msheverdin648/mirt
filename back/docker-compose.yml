@@ -9,7 +9,7 @@ services:
       - static_volume:/home/app/web/staticfiles
       - media_volume:/home/app/web/media
     ports:
-      - 8000:8000
+      - 5000:5000
     env_file:
       - ./.env.dev
     links:
