@@ -10,7 +10,7 @@ php.ini
 *.json
 *.lock
 deploy.txt
-**/nginx
+# **/nginx
 *.sqlite3
 __pycache__
 
